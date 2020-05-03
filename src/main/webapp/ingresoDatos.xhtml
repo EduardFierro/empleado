@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      >
+    <head>
+        <title>Ingreso De Datos</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h:form>
+            <tt>
+                <big>
+                    <big>
+                        <b>
+                            <h:outputText value="Cedula:      "/>                            
+                            <h:inputText value="#{ingresoDatos.cedula}" required="true" requiredMessage="Escriba su cedula"/>
+                        </b>
+                    </big>
+                </big>
+            </tt>
+            <br></br>
+            <br></br>
+            <tt>
+                <big>
+                    <big>
+                        <b>
+                            <h:outputText value="Nombre:     "/>                            
+                            <h:inputText value="#{ingresoDatos.nombre}" required="true" requiredMessage="Escriba su nombre"/>
+                        </b>
+                    </big>
+                </big>
+            </tt>
+            <br></br>
+            <br></br>
+            <tt>
+                <big>
+                    <big>
+                        <b>
+                            <h:outputText value="Apellido: "/>
+                            <h:inputText value="#{ingresoDatos.apellido}" required="true" requiredMessage="Escriba su apellido"/>
+                        </b>
+                    </big>
+                </big>
+            </tt>
+            <br></br>
+            <br></br>
+            <tt>
+                <big>
+                    <big>
+                        <b>
+                            <h:outputText value="Fecha Nacimiento: "/>
+                            
+                        </b>
+                    </big>
+                </big>
+            </tt>
+            <br></br>
+         </h:form>
+    </body>
+</html>
